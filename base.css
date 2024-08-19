@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+*/
+
+/*
+@media screen and (max-width: 800px){
+	/*todas las reglas que modifiquen la esttuctura en 800 o menos*/
+	/*body{
+		background-color: azure;
+	}
+	header{
+		text-align: center;
+	}
+	.holder{
+		flex-wrap: wrap;
+	}
+	nav{
+		width: 100%;
+		border-bottom: 2px solid black;
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	main{
+		width: 100%;
+		border-bottom: 2px solid black;
+		padding: 10px;
+	}
+	aside{
+		background-color: aquamarine;
+		width: 100%;
+		border-bottom: 2px solid black;
+		display: none;
+	}
+}
+*/
+
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+  
+#contenedor {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+  
+h1 {
+	background-color: #7D8A5C;
+	color: #000;
+	padding: 10px;
+}
+  
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}  
+nav ul li {
+	background-color: #F2A65A;
+	margin: 5px 0;
+	padding: 10px;
+}
+section, aside {
+	margin: 20px 0;
+	padding: 10px;
+	background-color: #F1E7B6;
+}
+  
+aside {
+	background-color: #C0B283;
+}
+  
+  /* Media Query para resoluciones menores a 800px */
+  @media screen and (max-width: 800px) {
+	h1 {
+	  font-size: 24px;
+	  text-align: center;
+	}
+  
+	nav ul li {
+	  text-align: center;
+	  font-size: 18px;
+	}
+  
+	section, aside {
+	  font-size: 16px;
+	  padding: 20px;
+	}
+}
+  
